@@ -31,6 +31,7 @@ public class Stock {
         System.out.println("Market Cap: " + marketCap);
         System.out.println("Sector Id: " + sectorId);
         System.out.println("Subsector Id: " + subSectorId);
+        System.out.println("SubsectorName:" + subSectorName);
     }
 
 }
