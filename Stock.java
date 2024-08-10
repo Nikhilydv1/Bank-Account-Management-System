@@ -4,6 +4,7 @@ import java.util.Objects;
 public class Stock {
     private String tickerSymbol;
     private String tickerName;
+    private int code;
     private String tickerID;
     private int marketCap;
 
