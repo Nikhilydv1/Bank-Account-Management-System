@@ -7,9 +7,12 @@ public class Stock {
     private int code;
     private String tickerID;
     private int marketCap;
+    private int open_price;
+    private int close_price;
 
     private int sectorId;
     private int subSectorId;
+    private int sectorName;
 
     public Stock(String tickerSymbol,
                  String tickerName,
