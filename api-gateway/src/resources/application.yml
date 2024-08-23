@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: account_service
+          uri: http://account-service:8081
+          predicates:
+            - Path=/accounts/**
+        - id: customer_service
+          uri: http://customer-service:8082
+          predicates:
+            - Path=/customers/**
+        - id: transaction_service
+          uri: http://transaction-service:8083
+          predicates:
+            - Path=/transactions/**
